@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admit Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Admit Card</h2>
+        <div class="card">
+            <div class="card-header">Issue Admit Card</div>
+            <div class="card-body">
+                <form id="admitCardForm">
+                    <div class="mb-3">
+                        <label for="studentIdAdmit" class="form-label">Student ID</label>
+                        <input type="number" id="studentIdAdmit" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="examCenter" class="form-label">Exam Center</label>
+                        <input type="text" id="examCenter" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="examDate" class="form-label">Exam Date</label>
+                        <input type="date" id="examDate" class="form-control" required>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="issueAdmitCard()">Issue Admit Card</button>
+                </form>
+            </div>
+        </div>
+        <div id="responses" class="alert d-none mt-3"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
