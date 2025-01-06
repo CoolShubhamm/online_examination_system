@@ -1,6 +1,6 @@
-Online Exam System
+Online Examination System
 
-This project is an online exam management system that allows the registration of students, issuance of admit cards, and publication of exam results. The system is built using Java Servlets, JSP, MySQL for backend logic and Bootstrap for frontend design. It integrates various technologies to offer a simple yet functional solution.
+This project is an online examination management system that allows the registration of students, issuance of admit cards, and publication of exam results. The system is built using Java Servlets, JSP, MySQL for backend logic and Bootstrap for frontend design. It integrates various technologies to offer a simple yet functional solution.
 
 
 ---
